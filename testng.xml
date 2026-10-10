@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Testsuite"  parallel="classes" thread-count="3">
+       <test name="smoke">
+
+           <classes>
+
+            <class name="tests.MoreUIValidationTest"/>
+
+
+           </classes>
+
+       </test>
+
+</suite>
